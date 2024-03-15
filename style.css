@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-.titulo {
+.Titulo {
     border: solid;
     height: 80px;
     line-height: 80px;
@@ -76,4 +76,53 @@ body {
     margin: 0 10px;
     border: 5px solid burlywood;
     border-radius: 10px;
+} 
+body {
+    font-family: Arial, sans-serif;
+    background-color:lightgreen;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.breed {
+    margin-bottom: 40px;
+    background-color: #deb887; 
+    border-radius:10px solid;
+    box-shadow: 0 4px 8px black;
+}
+
+.breed-info {
+    padding: 20px;
+}
+
+.breed-info img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+
+.titulo {
+    text-align: center;
+    background-color: #ff7f50; 
+    color: #fffacd; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; 
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black
+} 
+.Volver{
+    display: flex;
+    justify-content: end;
 }
